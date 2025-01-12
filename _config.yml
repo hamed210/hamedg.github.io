@@ -18,7 +18,7 @@ lang: en
 supported_langs: [en,cn]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://termux.dev" # the base hostname & protocol for your site, e.g. http://example.com
-site_source: "https://github.com/hamed210/termux.github.io"
+site_source: "https://github.com/hamed210/hamedg.github.io"
 twitter_username: hamedgayour
 mastodon:
   -
