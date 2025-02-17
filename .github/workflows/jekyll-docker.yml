@@ -16,7 +16,7 @@ jobs:
         github-token: ${{ secrets.TRIGGER_TERMUX_COM_SYNC_TOKEN }}
         script: |
           await github.rest.actions.createWorkflowDispatch({
-            owner: 'hamed210',
+            owner: 'termux',
             repo: 'termux.com',
             workflow_id: 'sync_termux_com.yml',
             ref: 'master'
